@@ -159,6 +159,17 @@ form #inputBouton {
   margin-top: 20px;
 }
 
+.unFiltre a {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 700;
+}
+
+.unFiltre:hover {
+  background-color: #deebff;
+  color: #0065fc;
+}
+
 .logoFiltre {
   background-color: #deebff;
   width: 50px;
@@ -166,11 +177,6 @@ form #inputBouton {
   border-radius: 100px;
   display: flex;
   justify-content: center;
-}
-
-.unFiltre h4 {
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 #infoNombre {
@@ -310,9 +316,16 @@ form #inputBouton {
   background-color: white;
 }
 
+.infosCarte,
+.infosCartePopulaire {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
 .infosCarte h3,
 .infosCartePopulaire h3 {
   font-size: 16px;
+  margin-bottom: 2%;
 }
 
 #sectionActivite {
