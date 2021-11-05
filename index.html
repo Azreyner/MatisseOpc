@@ -17,7 +17,7 @@
             <div id="topHeader">
                 <img src="assets/images/logo/Booki.png" alt="Logo de Booki">
                 <nav>
-                    <ul>
+                    <ul id="leNav">
                         <li><a href="#sectionHebergement">Hébergements</a></li>
                         <li><a href="#sectionActivite">Activités</a></li>
                     </ul>
@@ -30,7 +30,7 @@
                     <div class="iconeGmap">
                         <i class="fas fa-map-marker-alt" data-fa-transform="shrink-8 down-6"></i>
                     </div>
-                    <input type="text" id="inputTexte">
+                    <input type="text" id="inputTexte" placeholder="Marseille, France">
                     <input type="button" value="Rechercher" id="inputBouton">
                 </form>
                 <div class="lesFiltres">
@@ -83,7 +83,7 @@
                                     <li><i class="fas fa-star fa-xs"></i></li>
                                     <li><i class="fas fa-star fa-xs"></i></li>
                                     <li><i class="fas fa-star fa-xs"></i></li>
-                                    <li><i class="fas fa-star fa-xs"></i></li>
+                                    <li><i class="fas fa-star fa-xs" style="color: #F2F2F2;"></i></li>
                                 </ul>
                             </div>
                         </div>
@@ -111,7 +111,7 @@
                                     <li><i class="fas fa-star fa-xs"></i></li>
                                     <li><i class="fas fa-star fa-xs"></i></li>
                                     <li><i class="fas fa-star fa-xs"></i></li>
-                                    <li><i class="fas fa-star fa-xs"></i></li>
+                                    <li><i class="fas fa-star fa-xs" style="color: #F2F2F2;"></i></li>
                                 </ul>
                             </div>
                         </div>
@@ -124,8 +124,8 @@
                                     <li><i class="fas fa-star fa-xs"></i></li>
                                     <li><i class="fas fa-star fa-xs"></i></li>
                                     <li><i class="fas fa-star fa-xs"></i></li>
-                                    <li><i class="fas fa-star fa-xs"></i></li>
-                                    <li><i class="fas fa-star fa-xs"></i></li>
+                                    <li><i class="fas fa-star fa-xs" style="color: #F2F2F2;"></i></li>
+                                    <li><i class="fas fa-star fa-xs" style="color: #F2F2F2;"></i></li>
                                 </ul>
                             </div>
                         </div>
@@ -139,7 +139,7 @@
                                     <li><i class="fas fa-star fa-xs"></i></li>
                                     <li><i class="fas fa-star fa-xs"></i></li>
                                     <li><i class="fas fa-star fa-xs"></i></li>
-                                    <li><i class="fas fa-star fa-xs"></i></li>
+                                    <li><i class="fas fa-star fa-xs" style="color: #F2F2F2;"></i></li>
                                 </ul>
                             </div>
                         </div>
@@ -161,7 +161,10 @@
                     <p><b>Afficher plus</b></p>
                 </div>
                 <div class="hebergementPopulaire">
-                    <h2>Les plus populaires</h2>
+                    <div class="titrePopulaire">
+                        <h2>Les plus populaires</h2>
+                        <i class="fas fa-chart-line fa-lg"></i>
+                    </div>
                     <div class="cartesHebergementPopulaire">
                         <div class="carteHebergementPopulaire">
                             <img src="assets/images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Image de résidence">
@@ -187,7 +190,7 @@
                                     <li><i class="fas fa-star fa-xs"></i></li>
                                     <li><i class="fas fa-star fa-xs"></i></li>
                                     <li><i class="fas fa-star fa-xs"></i></li>
-                                    <li><i class="fas fa-star fa-xs"></i></li>
+                                    <li><i class="fas fa-star fa-xs" style="color: #F2F2F2;"></i></li>
                                 </ul>
                             </div>
                         </div>
@@ -201,7 +204,7 @@
                                     <li><i class="fas fa-star fa-xs"></i></li>
                                     <li><i class="fas fa-star fa-xs"></i></li>
                                     <li><i class="fas fa-star fa-xs"></i></li>
-                                    <li><i class="fas fa-star fa-xs"></i></li>
+                                    <li><i class="fas fa-star fa-xs"  style="color: #F2F2F2;"></i></li>
                                 </ul>
                             </div>
                         </div>
@@ -261,22 +264,24 @@
     </div>
     <footer>
         <div class="listeLiens">
-            <ul>
-                <li class="titreListe">A propos</li>
-                <li>Fonctionnement du site</li>
-                <li>Condition générales de vente</li>
-                <li>Données et confidentialité</li>
-            </ul>
-            <ul>
-                <li class="titreListe">Nos hébergements</li>
-                <li>Charte de qualité</li>
-                <li>Soumettre votre hôtel</li>
-            </ul>
-            <ul>
-                <li class="titreListe">Assitance</li>
-                <li>Centre d'aide</li>
-                <li>Nous contacter</li>
-            </ul>
+            <div class="blocsLiens">
+                <ul>
+                    <li class="titreListe">A propos</li>
+                    <li>Fonctionnement du site</li>
+                    <li>Condition générales de vente</li>
+                    <li>Données et confidentialité</li>
+                </ul>
+                <ul>
+                    <li class="titreListe">Nos hébergements</li>
+                    <li>Charte de qualité</li>
+                    <li>Soumettre votre hôtel</li>
+                </ul>
+                <ul>
+                    <li class="titreListe">Assitance</li>
+                    <li>Centre d'aide</li>
+                    <li>Nous contacter</li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
