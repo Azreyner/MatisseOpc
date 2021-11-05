@@ -82,7 +82,7 @@ nav li a {
   text-decoration: none;
 }
 
-nav li a:target {
+nav li a:active {
   color: #0065fc;
   border-top: #0065fc 2px solid;
 }
@@ -498,7 +498,6 @@ footer li {
     width: 100%;
     padding-top: 0;
     padding-bottom: 20px;
-    border: none;
   }
 
   nav li a:active {
