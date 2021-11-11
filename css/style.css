@@ -87,7 +87,7 @@ nav li a {
   text-decoration: none;
 }
 
-nav li a:active {
+nav li a:hover {
   color: #0065fc;
   border-top: #0065fc 2px solid;
 }
@@ -432,7 +432,7 @@ footer {
   width: 100%;
   background-color: #f2f2f2;
   display: flex;
-  flex-flow: wrap wrap;
+  flex-flow: wrap;
   justify-content: center;
 }
 
@@ -534,7 +534,7 @@ footer li {
     border-bottom: #f2f2f2 2px solid;
   }
 
-  nav li:active {
+  nav li:hover {
     border-bottom: #0065fc 2px solid;
   }
 
@@ -544,7 +544,7 @@ footer li {
     padding-bottom: 20px;
   }
 
-  nav li a:active {
+  nav li a:hover {
     color: #0065fc;
     border-top: none;
   }
